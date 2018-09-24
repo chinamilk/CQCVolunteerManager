@@ -1,0 +1,6 @@
+name: cqchust
+version: 1
+cron:
+- description: checkSmsState
+  url: service/checkSmsState.php
+  schedule: "*/1 * * * *"
